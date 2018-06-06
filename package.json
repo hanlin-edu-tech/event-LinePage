@@ -1,0 +1,27 @@
+{
+  "name": "LinePage",
+  "version": "1.0.1-SNAPSHOT",
+  "description": "LinePage",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eHanlin/event-LinePage.git"
+  },
+  "scripts": {
+    "start": "echo website"
+  },
+  "author": "ujhong636 <ujhong636@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^16.2.2",
+    "del": "^3.0.0",
+    "event-stream": "^3.3.4",
+    "express": "~4.16.0",
+    "gulp-rename": "^1.2.3",
+    "gulp-sass": "^4.0.1",
+    "gulp-template-util": "0.0.2",
+    "path": "^0.12.7",
+    "pug": "^2.0.3",
+    "q": "^1.5.1"
+  }
+}
