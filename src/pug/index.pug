@@ -5,6 +5,11 @@ html(lang="zh-tw")
     title 翰林雲端學院│聯絡線上客服 了解課程及優惠方案
     link(rel='icon', href='./img/favicon.png', type='image/png')
     link(rel='stylesheet', href='./css/style.css')
+    script(src='https://unpkg.com/current-device/umd/current-device.min.js')
+    script.
+      if (!device.desktop()) {
+        location.replace("http://line.me/ti/p/@ehanlin")
+      }
   body
     .container
       .col_left
@@ -74,4 +79,5 @@ html(lang="zh-tw")
     script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js')
+    script(src='https://unpkg.com/current-device/umd/current-device.min.js')
     script(src='./js/index.js')
