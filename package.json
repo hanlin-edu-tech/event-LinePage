@@ -13,6 +13,7 @@
   "author": "ujhong636 <ujhong636@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "@google-cloud/storage": "^1.7.0",
     "browserify": "^16.2.2",
     "del": "^3.0.0",
     "event-stream": "^3.3.4",
