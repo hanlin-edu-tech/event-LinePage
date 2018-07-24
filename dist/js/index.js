@@ -14,13 +14,12 @@ function slide(){
   $(".shadow_m").velocity({
     height: ["0%","easeInOutQuart","100%"],
   },1000)
-  $(".shadow_mb").velocity({
-    height: ["0%","easeInOutQuart","100%"],
+  $(".rect4").velocity({
+    width: ["100%","easeInOutQuart","0%"],
   },{
     duration: 1000,
-    delay: 300
+    delay: 1400
   })
-  
   $(".shadow_r5").velocity({
     width: ["0%","easeInOutQuart","100%"],
   },{
