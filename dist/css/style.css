@@ -39,7 +39,7 @@ body {
         bottom: 0;
         transform: scaleY(0); }
         .container .col_left .l_top .title h1 {
-          font-size: 65px;
+          font-size: 55px;
           margin: 0;
           width: 80%;
           position: relative; }
@@ -56,10 +56,10 @@ body {
             animation: shake 1s forwards;
             animation-delay: 3.4s; }
         .container .col_left .l_top .title h2 {
-          font-size: 55px;
+          font-size: 35px;
           margin: 0; }
         .container .col_left .l_top .title h3 {
-          font-size: 35px;
+          font-size: 25px;
           margin: 0; }
     .container .col_left .l_bottom {
       height: 60%;
