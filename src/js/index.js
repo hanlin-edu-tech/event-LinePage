@@ -14,8 +14,8 @@ function slide(){
   $(".shadow_m").velocity({
     height: ["0%","easeInOutQuart","100%"],
   },1000)
-  $(".rect4").velocity({
-    width: ["100%","easeInOutQuart","0%"],
+  $(".shadow_r4").velocity({
+    width: ["0%","easeInOutQuart","100%"],
   },{
     duration: 1000,
     delay: 1400
