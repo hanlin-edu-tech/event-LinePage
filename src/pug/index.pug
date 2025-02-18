@@ -5,7 +5,8 @@ html(lang="zh-tw")
     title 翰林雲端學院│聯絡線上客服 了解課程及優惠方案
     link(rel='icon', href='./img/favicon.png', type='image/png')
     link(rel='stylesheet', href='./css/style.css')
-
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap")
+    
     // Google Tag Manager
     script(type='text/javascript').
       (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -23,72 +24,29 @@ html(lang="zh-tw")
       }
   body
     .container
-      .col_left
-        .l_top
-          .title
-            h1 馬上加入
-              .line_icon
-            h2 享受專屬個人化服務
-            h3 查看更多活動訊息
-        .l_bottom
-          .lb_left
-            .rect1
-              .shadow_r1
-              .new_text
-                h2 最新資訊
-              .new_info
-          .lb_right
-            .rect2
-              .shadow_r2
-              .service
-              .service_text
-                h2 即時服務
-      .col_middle
-        .m_top
-        .m_middle
-          .rect3
-            .shadow_m
-            .ehanlin
-            .qrcode
-        .m_bottom
-          .rect4
-            .shadow_r4
-            .tie-up-text
-              h2 綁定帳號<br>領取專屬優惠券
-      .col_right
-        .r_top
-        .r_middle
-          .rt_left
-            .lrect_up
-              .rect5
-                .shadow_r5
-                .coupon
-                .coupon_text
-                  h2 領取優惠
-            .lrect_down
-              .rect6
-                .tri
-                .id_text
-                  .hand_phone
-                  h3 掃描Qrcode
-                  h5 或搜尋ID
-                  h4 @ehanlin
-                  h5 和我們成為好友吧！
-          .rt_right
-            .rrect_up
-              .rect7
-                .shadow_r7
-            .rrect_down
-              .rect8
-                .shadow_r8
-                .gift_text
-                  h2 贈獎活動
-                .gift
-        .r_bottom
-          
-    .bg.bg1
-    .bg.bg2
-    .bg.bg3
+      .title 
+        h1 掃描QRcode
+        h2 或搜尋 ID @079rutps
+      .qrcode-container 
+        img(src="./img/qrcode.png", alt="qrcode")
+      .introduction-container
+        .introduction-title
+          .line
+          h3 綁定帳號 享受專屬個人化服務
+          .line
+        .introduction-list
+          .introduction-item
+            img(src="./img/ticket.png", alt="ticket")
+            p 領取優惠
+          .introduction-item
+            img(src="./img/customer-service.png", alt="customer-service")
+            p 即時服務
+          .introduction-item
+            img(src="./img/mail.png", alt="mail")
+            p 最新資訊
+          .introduction-item
+            img(src="./img/gift.png", alt="gift")
+            p 贈獎活動
 
     script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js')
