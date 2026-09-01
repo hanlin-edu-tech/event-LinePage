@@ -15,6 +15,19 @@ html(lang="zh-tw")
       'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
       })(window,document,'script','dataLayer','GTM-NNPRT6H');
 
+    //- Google Ads 再行銷碼（AW-17914120386）
+    //- 需求單 e-hanlin_2026Aug_Snippet_V3 要求埋在全站每一頁的 head。
+    //- 本頁不載官網共用的 platform-env.js，因此使用 Google Ads 原始 snippet。
+    //- 刻意排在下方轉址腳本之前：手機訪客會被 location.replace 導往 LINE，
+    //- 越早送出越有機會在跳離前記錄到。
+    script(async src="https://www.googletagmanager.com/gtag/js?id=AW-17914120386")
+    script.
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-17914120386');
+
     // GA and FBPixel
     script(src="https://s3-ap-northeast-1.amazonaws.com/ehanlin-web-resource/common_webcomponent/current/js/ehanlin-social.js")
     script(src='https://unpkg.com/current-device/umd/current-device.min.js')
